@@ -1,0 +1,1 @@
+This repository demonstrates a subtle runtime error that can occur in TypeScript when dealing with arrays of mixed types. The `printArray` function seems to work correctly with arrays of numbers and strings, but unexpected behavior can result with mixed type arrays. The solution shows how to handle this potential issue using type guards to ensure type safety during runtime.
